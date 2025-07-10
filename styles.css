@@ -61,11 +61,7 @@ header .navigation li a:hover {
 /*Main setting*/
 /**mission part*/
 main .mission {
-    width: 1200px;
-    height: 700px;
-    text-align: center;
-    padding: 20px;
-    background-image: url("resources/img-spice-jar.webp");
-    background-size: cover;
     background-position: center;
+    background-color: #000000;
+    background-size: cover;
 }
