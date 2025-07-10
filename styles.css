@@ -1,9 +1,11 @@
+/*Global setting for all element*/
+/*Default web layout*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+/*body setting*/
 body {
     font-family: Helvetica, sans-serif;
     font-size: 22px;
@@ -16,6 +18,8 @@ body {
     justify-content: center;
 }
 
+/*header setting*/
+/*all in header part*/
 header {
     width: 100%;
     height: 69px;
@@ -27,24 +31,29 @@ header {
     display: flex;
     justify-content: space-between; 
 }
-
+/*logo part*/
 header section.logo {
     display: flex;
     align-items: center;
     position: relative;
     left: 10px;
 }
-
-header section.navigation {
+/*navigation bar part*/
+header .navigation {
     display: flex;
     align-items: center;
     position: relative;
     right: 10px;
 }
-
-header section.navigation ul {
-    list-style: none;
-    border: solid 1px seashell;
-    display: flex;
-    justify-content: space-between;
+header .navigation li {
+    display: inline;
+    margin-left: 10px;
+}
+header .navigation li a {
+    color: seashell;
+}
+header .navigation li a:hover {
+    color:aqua;
+    font-weight: bold;
+    text-decoration: none;
 }
