@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-/*body setting*/
+/*Body setting*/
 body {
     font-family: Helvetica, sans-serif;
     font-size: 22px;
@@ -18,7 +18,7 @@ body {
     justify-content: center;
 }
 
-/*header setting*/
+/*Header setting*/
 /*all in header part*/
 header {
     width: 100%;
@@ -56,4 +56,16 @@ header .navigation li a:hover {
     color:aqua;
     font-weight: bold;
     text-decoration: none;
+}
+
+/*Main setting*/
+/**mission part*/
+main .mission {
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    padding: 20px;
+    background-image: url("resources/img-spice-jar.webp");
+    background-size: cover;
+    background-position: center;
 }
